@@ -1,0 +1,294 @@
+main {
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.profile {
+    background: var(--bg-element-alt);
+    border: 2px solid var(--border-main);
+    padding: 2rem;
+    border-radius: 15px;
+    width: calc(100vw - 2.5rem);
+    max-width: 87.5rem;
+    min-width: 18.75rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+    width: 100%;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.profile-content h3 {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.profile-content p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--border-main);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 1.25rem;
+}
+
+.input-field {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--text-primary);
+    background-color: var(--bg-element);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-link {
+    height: 38px;
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link .input-field {
+    text-align: left;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: left;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: var(--text-secondary);
+    font-family: 'inter';
+    font-weight: 400;
+    text-align: left; 
+}
+
+.submit-button {
+    background: var(--btn-primary);
+    color: var(--text-primary);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 10rem;
+    align-self: center; 
+}
+
+.submit-button:hover {
+    background: var(--primary-hover);
+}
+
+textarea {
+    resize: none;
+    height: 6.25rem;
+}
+
+.photo-input {
+    display: none;
+}
+
+.photo-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.photo-preview {
+    position: relative;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: var(--bg-element);
+}
+
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-photo {
+    width: 12.5rem;
+    height: 12.5rem;
+    border: 2px dashed var(--border-main);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-photo:hover {
+    border-color: var(--primary);
+}
+
+.add-icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: var(--text-secondary);
+}
+
+.add-text {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.photo-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.error-message {
+    color: #e53935;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .profile {
+        width: min(87.5rem, calc(100vw - 2.5rem));
+    }
+}
+
+@media (max-width: 1420px) {
+    .main {
+        padding: 0 10px;
+    }
+    
+    .profile {
+        width: calc(100vw - 1.25rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 0 10px;
+    }
+
+    .profile {
+        width: calc(100vw - 1.25rem);
+        padding: 15px;
+    }
+
+    .photo-preview-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 0 auto 10px auto;
+        width: 70%;
+    }
+
+    .photo-preview {
+        position: relative;
+        height: 12.5rem;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: var(--bg-element);
+    }
+
+    .preview-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-link {
+        width: 100%;
+        max-width: none;
+    }
+
+    .profile-form {
+        padding: 15px;
+    }
+
+    .form-group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .form-group label {
+        align-self: flex-start;
+        width: 100%;
+        text-align: left;
+    }
+}

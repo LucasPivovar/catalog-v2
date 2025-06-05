@@ -1,0 +1,45 @@
+{
+    "id": "Gustavo",
+    "name": "Gustavo Rocha",
+    "carrer": [
+        {
+            "carrer1": "Modelo",
+            "carrer2": "Dança"
+        }
+    ],
+    "age": 33,
+    "biography": "Ator e comediante com experiência em stand-up comedy e programas de humor. Já se apresentou nos principais clubes de comédia do país.",
+    "images": [
+        {
+            "imagem1": "./api/models/Gustavo/images/gustavo.svg",
+            "imagem2": "",
+            "imagem3": ""
+        }
+    ],
+    "contact": [
+        {
+            "whatsapp": "https://web.whatsapp.com/",
+            "telegram": "https://web.telegram.org/",
+            "instagram": "https://www.instagram.com/"
+        }
+    ],
+    "profile": "",
+
+    "comments": [	
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        },
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        },
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        }
+    ]   
+}

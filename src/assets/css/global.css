@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, main, .main {
+    /* COLORS - PRIMARY PALETTE
+    ========================================== */
+    --primary: #d32f4b;           /* Primary accent/brand color */
+    --primary-hover: #c02843;     /* Darker version for hover states */
+    --primary-light: #eb405d;     /* Lighter version for subtle elements */
+    
+    /* COLORS - BACKGROUND
+    ========================================== */
+    --bg-main: rgb(5, 5, 5);      /* Main background color */
+    --bg-card: #151515;           /* Card/content container background */
+    --bg-element: #1c1c1c;        /* Input fields, secondary elements */
+    --bg-element-alt: #252525;    /* Alternative element background */
+    --bg-dark: rgb(32, 32, 32);   /* Darker background for modals */
+    --bg-overlay: rgba(0, 0, 0, 0.7); /* Overlay for modals */
+    
+    /* COLORS - BORDERS
+    ========================================== */
+    --border-main: #333333;       /* Primary border color */
+    
+    /* COLORS - TEXT
+    ========================================== */
+    --text-primary: #ffffff;      /* Main text color */
+    --text-secondary: #a6a6a6;    /* Secondary text color */
+    --text-accent: #d32f4b;       /* Accent text color (same as primary) */
+    
+    /* COLORS - BUTTONS
+    ========================================== */
+    --btn-primary: #d32f4b;       /* Primary button background */
+    --btn-secondary: #333333;     /* Secondary button background */
+    
+    /* COLORS - SOCIAL PLATFORMS
+    ========================================== */
+    --whatsapp: rgb(91, 199, 108);
+    --whatsapp-hover: rgb(59, 133, 70);
+    --telegram: rgb(47, 93, 185);
+    --telegram-hover: rgb(24, 55, 116);
+    --instagram: linear-gradient(to right, rgb(240, 163, 255), rgb(243, 80, 80));
+    --instagram-hover: linear-gradient(to right, rgb(230, 112, 253), rgb(238, 72, 72));
+    
+    /* COLORS - PREMIUM ELEMENTS
+    ========================================== */
+    --gold: gold;
+    --gold-shadow: rgba(255, 215, 0, 0.7);
+    
+    /* TYPOGRAPHY
+    ========================================== */
+    font-family: 'Inter', sans-serif;
+    
+    /* LAYOUT
+    ========================================== */
+    min-height: 100vh;
+    width: 100%;
+}

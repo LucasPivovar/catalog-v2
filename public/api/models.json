@@ -1,0 +1,147 @@
+[
+    {
+        "id": "Amanda",
+        "name": "Amanda Silva",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "Fotografa"
+            }
+        ],
+        "age": 27,
+        "img": "./api/models/Amanda/images/amanda.svg",
+        "subscription": "premium"
+    },
+    {
+        "id": "Ricardo",
+        "name": "Ricardo Ferreira",
+        "carrer": [
+            {
+                "carrer1": "Ator",
+                "carrer2": "Modelo"
+            }
+        ],
+        "age": 32,
+        "img": "./api/models/Ricardo/images/ricardo.svg",
+        "subscription": "premium"
+
+    },
+    {
+        "id": "Juliana",
+        "name": "Juliana Costa",
+        "carrer": [
+            {
+                "carrer1": "Influencer",
+                "carrer2": "Modelo"
+            }
+        ],
+        "age": 24,
+        "img": "./api/models/Juliana/images/juliana.svg",
+        "subscription": "premium"
+
+
+    },
+    {
+        "id": "Pedro",
+        "name": "Pedro Alves",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "Dança"
+            }
+        ],
+        "age": 29,
+        "img": "./api/models/Pedro/images/pedro.svg"
+
+    },
+
+    {
+        "id": "Camila",
+        "name": "Camila Rocha",
+        "carrer": [
+            {
+                "carrer1": "Atriz",
+                "carrer2": "Apresentadora"
+            }
+        ],
+        "age": 26,
+        "img": "./api/models/Camila/images/camila.svg"
+    },
+
+    {
+        "name": "Bruno Santos",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "fitness"
+            }
+        ],
+        "age": 31,
+        "img": "./api/models/Bruno/images/bruno.svg"
+    },
+
+    {
+        "id": "Fernanda",
+        "name": "Fernanda Lima",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "Dança"
+            }
+        ],
+        "age": 28,
+        "img": "./api/models/Fernanda/images/fernanda.svg"
+    },
+
+    {
+        "id": "Gustavo",
+        "name": "Gustavo Rocha",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "Dança"
+            }
+        ],
+        "age": 33,
+        "img": "./api/models/Gustavo/images/gustavo.svg"
+    },
+
+    {
+        "id": "Carla",
+        "name": "Carla Martins",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "Influencer"
+            }
+        ],
+        "age": 25,
+        "img": "./api/models/Carla/images/carla.svg"
+    },
+
+    {
+        "id": "Marcos",
+        "name": "Marcos Oliveira",
+        "carrer": [
+            {
+                "carrer1": "Fotografo",
+                "carrer2": "Diretor"
+            }
+        ],
+        "age": 30,
+        "img": "./api/models/Marcos/images/marcos.svg"
+    },
+    
+    {
+        "id": "Luiza",
+        "name": "Luiza Prado",
+        "carrer": [
+            {
+                "carrer1": "Modelo",
+                "carrer2": "Estilista"
+            }
+        ],
+        "age": 26,  
+        "img": "./api/models/Luiza/images/luiza.svg"
+    }
+]

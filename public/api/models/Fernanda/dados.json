@@ -1,0 +1,44 @@
+{
+    "id": "Fernanda",
+    "name": "Fernanda Lima",
+    "carrer": [
+        {
+            "carrer1": "Designer",
+            "carrer2": "Modelagem"
+        }
+    ],
+    "age": 28,
+    "biography": "Modelo e dançarina profissional com formação em jazz e dança do ventre. Participou de videoclipes e apresentações em eventos corporativos.",
+    "images": [
+        {
+            "imagem1": "./api/models/Fernanda/images/fernanda.svg",
+            "imagem2": "",
+            "imagem3": ""
+        }
+    ],
+    "contact": [
+        {
+            "whatsapp": "https://web.whatsapp.com/",
+            "telegram": "https://web.telegram.org/",
+            "instagram": "https://www.instagram.com/"
+        }
+    ],
+    "profile": "",
+    "comments": [	
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        },
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        },
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        }
+    ]   
+}

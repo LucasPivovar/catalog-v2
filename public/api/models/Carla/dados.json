@@ -1,0 +1,45 @@
+{
+    "id": "Carla",
+    "name": "Carla Martins",
+    "carrer": [
+        {
+            "carrer1": "Modelo",
+            "carrer2": "Influencer"
+        }
+    ],
+    "age": 25,
+    "biography": "Modelo e influenciadora digital especializada em moda e beleza. Colabora com diversas marcas no segmento de moda e cosméticos.",
+    "images": [
+        {
+            "imagem1": "./api/models/Carla/images/carla.svg",
+            "imagem2": "",
+            "imagem3": ""
+        }
+    ],
+    "contact": [
+        {
+            "whatsapp": "https://web.whatsapp.com/",
+            "telegram": "https://web.telegram.org/",
+            "instagram": "https://www.instagram.com/"
+        }
+    ],
+    "profile": "",
+    "comments": [	
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        },
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        },
+        {   
+            "id": 1,
+            "stars": 5,
+            "comment": "Esse modelo é incrível! Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado. Ele é um ator incrível e tem uma personalidade incrível. Ele é muito divertido e é muito engraçado."
+        }
+    ]   
+
+}
