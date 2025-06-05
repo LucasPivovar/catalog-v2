@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import '@/assets/css/auth.css';
+import '@/assets/css/Auth_content.css';
 import '@/assets/css/global.css';
 import LoginComponent from '@/components/auth/LoginComponent.vue';
 import RegisterComponent from '@/components/auth/RegisterComponent.vue';
